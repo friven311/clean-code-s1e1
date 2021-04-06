@@ -35,7 +35,18 @@
       </li>
     </ul>
     <h3 class="app__title">Completed</h3>
-    <ul class="todo__list completed" id="completed-tasks">
+    <ul class="todo__list completed" id="completed-tasks" style="
+    text-decoration: line-through;
+    color: #888;
+">
+      
+    <li class="todo__item editMode">
+        <input class="app__checkbox" type="checkbox">
+        <label class="task todo__label">Go Shopping</label>
+        <input class="app__input-text todo__input-text task" type="text" value="Go Shopping">
+        <button class="app__button edit">Save</button>
+        <button class="app__button delete"><img class="delete__img" src="./remove.svg" alt="delete"></button>
+      </li></ul>>
       <li class="todo__item">
         <input class="app__checkbox" type="checkbox" checked>
         <label class="task todo__label completed__label">See the Doctor</label>
